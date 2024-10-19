@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int x;
+int n;
+int j;
+int ra;
+scanf("%d", &x);
+scanf("%d", &n);
+ra = x - 10 *n;
+j = ra / 20;
+printf("%d", j);
+return 0;
+}
